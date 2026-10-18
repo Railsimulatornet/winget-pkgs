@@ -41,7 +41,7 @@ Schriftdateien in den Formaten TTF, TTC, OTF, OTC und FNT werden technisch unter
 3. [Prüfe das Manifest und die Installation](doc/README.md#testing-a-manifest).
 4. [Reiche den Pull Request beim Upstream-Projekt ein](doc/README.md#submitting-a-manifest).
 
-Jeder Manifest-PR sollte sich auf ein Paket beziehen. Allgemeine Dokumentationsänderungen gehören in einen getrennten PR.
+Jeder Manifest-PR muss sich auf genau eine Paketversion und deren zusammengehörige Manifestdateien beziehen. Allgemeine Dokumentationsänderungen gehören in einen getrennten PR.
 
 ### Dokumentation und Anfragen
 
@@ -97,7 +97,7 @@ Font files in TTF, TTC, OTF, OTC and FNT formats are technically supported. Howe
 3. [Test the manifest and installation](doc/README.md#testing-a-manifest).
 4. [Submit the pull request to the upstream project](doc/README.md#submitting-a-manifest).
 
-Each manifest PR should cover one package. Keep general documentation changes in a separate PR.
+Each manifest PR must cover exactly one package version and its associated manifest set. Keep general documentation changes in a separate PR.
 
 ### Documentation and requests
 
