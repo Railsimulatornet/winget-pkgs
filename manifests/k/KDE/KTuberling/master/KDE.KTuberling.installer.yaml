@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: ktuberling
-ReleaseDate: 2026-11-23
+ReleaseDate: 2026-11-26
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ktuberling/master/windows/ktuberling-master-1074-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 41501A185E3AAD3EC9323677BFD26E135B1CADB24A59FA4CADCDF17517CA918F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ktuberling/master/windows/ktuberling-master-1083-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: DFF775E6B185227ED8135FD5A2441B37117F9B875807365F511A93A905E2AE31
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ktuberling/master/windows/ktuberling-master-1074-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 41501A185E3AAD3EC9323677BFD26E135B1CADB24A59FA4CADCDF17517CA918F
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ktuberling/master/windows/ktuberling-master-1083-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: DFF775E6B185227ED8135FD5A2441B37117F9B875807365F511A93A905E2AE31
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

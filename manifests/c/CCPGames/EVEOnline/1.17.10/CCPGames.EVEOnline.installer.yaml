@@ -1,0 +1,23 @@
+# Created by Anthelion using komac v2.17.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: CCPGames.EVEOnline
+PackageVersion: 1.17.10
+InstallerType: exe # Squirrel
+Scope: user
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+ProductCode: eve-online
+ReleaseDate: 2026-11-26
+AppsAndFeaturesEntries:
+- ProductCode: eve-online
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\eve-online'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://launcher.ccpgames.com/eve-online/release/win32/x64/eve-online-latest+Setup.exe
+  InstallerSha256: 2506FA71BEA655AF93770F9621A9F7A6AA0CF9DE047E7F0DC522386943018662
+ManifestType: installer
+ManifestVersion: 1.28.0

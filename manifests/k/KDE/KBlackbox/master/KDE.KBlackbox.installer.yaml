@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kblackbox
-ReleaseDate: 2026-11-23
+ReleaseDate: 2026-11-26
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblackbox/master/windows/kblackbox-master-954-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 25D533EB5884C5E73EEFA08163803543E0F3B3C0A2CD6BAE4DB4D0E70AF5B2CF
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblackbox/master/windows/kblackbox-master-960-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3ED2B11C797B1FA41B7A781C25D89BF6672172E53EA65E8823B3D7572988ABF7
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblackbox/master/windows/kblackbox-master-954-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 25D533EB5884C5E73EEFA08163803543E0F3B3C0A2CD6BAE4DB4D0E70AF5B2CF
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kblackbox/master/windows/kblackbox-master-960-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3ED2B11C797B1FA41B7A781C25D89BF6672172E53EA65E8823B3D7572988ABF7
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

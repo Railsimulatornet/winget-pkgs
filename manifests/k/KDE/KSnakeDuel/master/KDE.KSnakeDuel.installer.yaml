@@ -6,18 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: ksnakeduel
-ReleaseDate: 2026-11-23
+ReleaseDate: 2026-11-26
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-918-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 2015C9A06B16DEF50D15582FECA631268C2FB2CB79F894AAD905C7543D7816F5
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-925-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 647DCD1832132043F5E5A2CD1EB966B99E8792709ADBCE6B0E3F4E7651862622
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-918-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 2015C9A06B16DEF50D15582FECA631268C2FB2CB79F894AAD905C7543D7816F5
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/ksnakeduel/master/windows/ksnakeduel-master-925-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 647DCD1832132043F5E5A2CD1EB966B99E8792709ADBCE6B0E3F4E7651862622
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

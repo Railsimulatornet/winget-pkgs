@@ -1,0 +1,16 @@
+# Created by Anthelion using komac v2.17.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: CrystalIDEASoftware.Speedyfox
+PackageVersion: 3.0.4
+PackageLocale: en-US
+Publisher: CrystalIDEA
+PackageName: Speedyfox
+License: Proprietary
+ShortDescription: Removes unnecessary SQLITE cache files of many web browsers and certain E-mail and chat tools.
+ReleaseNotes: |-
+  - Fixed Opera is found again, GX and Air too
+  - Fixed Program icons are back in the list
+ReleaseNotesUrl: https://crystalidea.com/speedyfox/release-notes
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
